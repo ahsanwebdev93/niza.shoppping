@@ -1,0 +1,13 @@
+{
+  "name": "niza-shoppping",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Local development server for the niza.shoppping storefront demo",
+  "scripts": {
+    "start": "node dev-server.js",
+    "admin:create": "node scripts/create-admin.js"
+  },
+  "engines": {
+    "node": ">=24"
+  }
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>niza.shoppping – Shoes, Bags, Watches, Makeup & Luggage</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <header>
+    <div class="logo">niza.shoppping</div>
+    <button class="cartbtn" id="open" aria-label="Open cart">Cart (<span id="count">0</span>)</button>
+  </header>
+
+  <section class="hero">
+    <div>
+      <h1>Shoes, bags, watches &amp; more.</h1>
+    </div>
+    <div>
+      <p>Everything you wear, carry and travel with, under one brand. Delivered across Pakistan.</p>
+      <button class="btn" id="shop-now">Shop now</button>
+    </div>
+  </section>
+
+  <nav class="tabs" id="tabs" aria-label="Categories"></nav>
+  <p class="catalog-message" id="catalog-message" role="status" hidden></p>
+  <main class="grid" id="shop"></main>
+  <footer>© 2026 niza.shoppping. Cash on delivery available.</footer>
+
+  <div class="scrim" id="scrim"></div>
+  <aside id="cart" aria-label="Shopping cart" aria-hidden="true">
+    <div class="top">
+      <h2 id="ctitle">Your cart</h2><button class="x" id="close" aria-label="Close cart">×</button>
+    </div>
+    <div class="items" id="items"></div>
+    <div id="foot"></div>
+  </aside>
+
+  <script src="js/store.js" defer></script>
+</body>
+
+</html>
